@@ -1,7 +1,10 @@
-Welcome to your Appcelerator Titanium Mobile Project
+I heard about a specific app that I knew was done in Appcelerator. So I began this project to see if I could reconstruct the app from scratch.
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+Initially I used graphics from the existing app, but I then deracinated the project, replacing the content with a made-up marketplace for learning and using foreign languages.
+
+For navigation, the initial app used tabs, master-detail, click-to-open-new-window and a left-hand drawer. I began with a TabGroup but using that doesn’t play nicely with master detail. 
+
+The next step is to start over and use a pseudo tab group and rely on the other mechanisms for native navigation.
 
 
 
