@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<ImageView id="loading" image="/images/loading.png"></ImageView>
+	</Window>
+</Alloy>

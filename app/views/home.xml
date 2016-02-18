@@ -1,0 +1,26 @@
+<Alloy>
+    <TabGroup id="hometabgroup" tabsBackgroundColor="#474747">
+        <Tab title="FAVORITES" icon="star.png">
+            <Window title="FAVORITES">
+                <ImageView id="starbg" image="/images/star-bg.png" />
+                <Label id="dothetalking">DO THE TALKING</Label>
+                <Label id="whatsyourline">What’s Your Line? </Label>
+                <Button id="starttalking" onClick="goGet" title="  START TALKING  " />
+                <Label id="learntotalk">LEARN TO TALK</Label>
+                <Label id="postyour">Learn by Talking About What You Know</Label>
+                <Button id="learnnow" onClick="goMake" title="  LEARN NOW  " />
+            </Window>
+        </Tab>
+        <Tab title="LOCAL" icon="compass.png">
+            <Require src="local"></Require>
+        </Tab>
+        <Tab title="GLOBAL" icon="globe.png">
+            <Require src="global"></Require>
+        </Tab>
+        <Tab title="JOB FEEDS" icon="target.png">
+            <Window title="JOB FEEDS">
+                <Label>I am Window 4</Label>
+            </Window>
+        </Tab>
+    </TabGroup>
+</Alloy>

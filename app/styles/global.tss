@@ -1,0 +1,99 @@
+
+".container" : {
+  
+}
+
+"Window": {
+	backgroundColor: "#474747",
+	barColor: "#474747"
+}
+
+"#jobtemplategold": {
+	height:400
+}
+
+"#jobtemplateblue": {
+	height:400
+}
+
+".hed1": {
+	color: "#0372fc",
+	font: { fontSize:20, fontFamily: 'Share-Bold' },
+	top: 270,
+	left: 10,
+	width: 300,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".hed1gold": {
+	color: "#ffb915",
+	font: { fontSize:20, fontFamily: 'Share-Bold' },
+	top: 270,
+	left: 10,
+	width: 300,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".hed2": {
+	color: "#000000",
+	font: { fontSize:13, fontWeight:'normal', fontFamily: 'Share-Regular Neue' },
+	top: 305,
+	right: 10,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT
+}
+
+".graytext": {
+	color: "#999999",
+	font: { fontSize:13, fontWeight:'normal', fontFamily: 'Share-Regular' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".line1": {
+	top: 318,
+	left: 10,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".line2": {
+	top: 334,
+	left: 10,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".bigpic": {
+	left: 5,
+	top:8,
+	right: 5,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+".circlepic": {
+	right:11,
+	top: 251,
+	width:44,
+	borderRadius: 22
+}
+
+".pennant": {
+	color: "#ffffff",
+	backgroundColor: "#0372fc",
+	top:198,
+	left:10,
+	font: { fontSize:18, fontWeight:'normal', fontFamily: 'Share-Regular' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".stars": {
+	right:11,
+	top: 320,
+	width: 72
+}
+
+".reviews": {
+	color: "#999999",
+	font: { fontSize:13, fontWeight:'normal', fontFamily: 'Share-Regular' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	top: 334,
+	right: 11,
+}

@@ -1,0 +1,36 @@
+<Alloy>
+    <Window id="local" title="LOCAL OPPORTUNITIES" backgroundColor="#e3e3e3">
+        <ListView id="listView" defaultItemTemplate="jobtemplateblue" onItemclick="onItemClick">
+            <Templates>
+                <!-- Jobtemplate - this is the default ListItem template -->
+                <ItemTemplate id="jobtemplateblue" name="jobtemplateblue">
+                    <View>
+                        <ImageView id="catPhoto" bindId="catPhoto" class="bigpic" />
+                        <ImageView id="offerPhoto" bindId="offerPhoto" class="circlepic" />
+                        <Label id="earnpay" bindId="earnpay" class="pennant"/>
+                        <Label id="jobTitle" bindId="jobTitle" class="hed1" />
+                        <Label id="displayName" bindId="displayName" class="hed2" />
+                        <Label id="reviews" bindId="reviews" class="reviews" />
+                        <ImageView id="stars" bindId="stars" class="stars" />
+                        <Label id="category" bindId="category" class="graytext line1" />
+                        <Label id="line2" bindId="line2" class="graytext line2" />
+                    </View>
+                </ItemTemplate>
+                <ItemTemplate id="jobtemplategold" name="jobtemplategold">
+                    <View>
+                        <ImageView id="catPhoto" bindId="catPhoto" class="bigpic" />
+                        <ImageView id="offerPhoto" bindId="offerPhoto" class="circlepic" />
+                        <Label id="earnpay" bindId="earnpay" class="pennant"/>
+                        <Label id="jobTitle" bindId="jobTitle" class="hed1gold" />
+                        <Label id="displayName" bindId="displayName" class="hed2" />
+                        <Label id="reviews" bindId="reviews" class="reviews" />
+                        <ImageView id="starsgold" bindId="stars" class="stars" />
+                        <Label id="category" bindId="category" class="graytext line1" />
+                        <Label id="line2" bindId="line2" class="graytext line2" />
+                    </View>
+                </ItemTemplate>
+            </Templates>
+            <ListSection name="readyitems" />
+        </ListView>
+    </Window>
+</Alloy>

@@ -1,0 +1,64 @@
+
+".container" : {
+  
+}
+
+".hed": {
+	color: "#ffffff",
+	font: {
+		fontFamily:'Share-Bold',
+		fontSize:92
+	},
+	textAlign:'center',
+	top:100
+}
+
+".hed2": {
+	color: "#ffffff",
+	font: {
+		fontFamily:'Share-Regular',
+		fontSize:42
+	},
+	textAlign:'center',
+	top:190
+}
+
+".hed3": {
+	color: "#ffffff",
+	font: {
+		fontFamily:'Share-Bold',
+		fontSize:80
+	},
+	textAlign:'center',
+	top:100
+}
+
+
+"#astronautpic": {
+	width:300,
+	bottom:100
+}
+
+"#snowmanpic": {
+	width:100,
+	bottom:200,
+	left:60
+}
+
+"#palmtreepic": {
+	width:140,
+	bottom:174,
+	right:60,
+	color: '#fdda51'
+}
+
+"#bookpic": {
+	width:300,
+	bottom:200
+}
+
+"#shootingstarpic": {
+	width:300,
+	bottom:120
+}
+

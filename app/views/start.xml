@@ -1,0 +1,30 @@
+<Alloy>
+    <Window id="starthere">
+        <ScrollableView id="scroller" showPagingControl="false" overlayEnabled="false">
+            <View backgroundColor="#0372fc">
+                <Label id="explorehed" class="hed">EXPLORE</Label>
+                <Label id="newworldshed" class="hed2">NEW WORLDS!</Label>
+                <ImageView id="astronautpic" image="/images/astronaut.png" />
+                <Label id="skipe" class="skip" onClick="skipHome">SKIP</Label>
+            </View>
+            <View backgroundColor="#03FC8C">
+                <Label id="livehed" class="hed" color="#FC0373">LIVE</Label>
+                <Label id="anywherehed" class="hed2" color="#FC0373">ANYWHERE!</Label>
+                <ImageView id="snowmanpic" image="/images/snowman.png" />
+                <ImageView id="palmtreepic" image="/images/palmtree.png" />
+                <Label id="skipl" class="skip" onClick="skipHome">SKIP</Label>
+            </View>
+            <View backgroundColor="#FC0373">
+                <Label id="translatehed" class="hed3">TRANSLATE</Label>
+                <Label id="anykindhed" class="hed2">ANY DOCUMENT!</Label>
+                <ImageView id="bookpic" image="/images/book.png" />
+                <Label id="skipt" class="skip" onClick="skipHome">SKIP</Label>
+            </View>
+            <View backgroundColor="#7CB6FE">
+                <Label id="gethed" class="hed3">GET STARTED</Label>
+                <ImageView id="shootingstarpic" image="/images/shootingstar.png" />
+                <Label id="skipg" class="skip" onClick="skipHome">Let’s Start!</Label>
+            </View>
+        </ScrollableView>
+    </Window>
+</Alloy>

@@ -1,0 +1,137 @@
+
+".container" : {
+  
+}
+"Window": {
+	backgroundColor: "#474747",
+	barColor: "#474747",
+	titleAttributes: {
+		color: "#ffffff",
+		font: {fontWeight:'bold', fontSize:20, fontFamily: 'Share-Regular'},
+	}
+}
+
+"TabGroup": {
+	activeTabIconTint: "#ffffff",
+	tintColor: "#ffffff",
+	titleAttributes: {
+		color: "#ffffff",
+		font: {fontWeight:'bold', fontSize:20, fontFamily: 'Share-Regular'},
+	}
+}
+
+"Tab": {
+	activeTitleColor: "#ffffff",
+	titleColor: "#ffffff"
+}
+
+"#starbg": {
+	opacity: 0.1,
+	top:0,
+	left:0,
+	width: Titanium.UI.FILL
+}
+
+"#dothetalking": {
+	color: "#0372fc",
+	top: 50
+}
+
+"#learntotalk": {
+	color: "#ffb915",
+	top: 250
+}
+
+"#whatsyourline": {
+	color: "#ffffff",
+	font: { fontSize:14, fontWeight:'normal', fontFamily:'Share-Regular' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	top: 80,
+  	width: Ti.UI.SIZE, height: Ti.UI.SIZE
+}
+"#postyour": {
+	color: "#ffffff",
+	font: { fontSize:14, fontWeight:'normal', fontFamily:'Share-Regular' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	top: 280,
+  	width: Ti.UI.SIZE, height: Ti.UI.SIZE
+}
+
+"#starttalking": {
+	color: "#ffffff",
+	font: { fontSize:16, fontWeight:'normal', fontFamily: 'Share-Regular' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	top: 110,
+	backgroundColor: "#0372fc",
+	borderRadius: 15,
+	zIndex: 10
+}
+
+"#learnnow": {
+	color: "#ffffff",
+	font: { fontSize:16, fontWeight:'normal', fontFamily: 'Share-Regular' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	top: 310,
+	backgroundColor: "#ffb915",
+	borderRadius: 15,
+	zIndex: 10
+}
+
+".template": {
+	
+}
+
+"#bigpic": {
+	left: 20,
+	top:20,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+".left-buffer": {
+	
+}
+
+".avatar": {
+	
+}
+
+".vgroup": {
+	
+}
+
+".left": {
+	
+}
+
+".size": {
+	
+}
+
+".pennant": {
+	
+}
+
+".hed1": {
+	color: "#555555",
+	font: { fontSize:16, fontWeight:'normal' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".hed2": {
+	color: "#555555",
+	font: { fontSize:16, fontWeight:'normal' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".graytext": {
+	color: "#555555",
+	font: { fontSize:16, fontWeight:'normal' },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+
+
+
+
+
