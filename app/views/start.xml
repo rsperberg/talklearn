@@ -1,6 +1,6 @@
 <Alloy>
     <Window id="starthere">
-        <ScrollableView id="scroller" showPagingControl="false" overlayEnabled="false">
+        <ScrollableView id="scroller" showPagingControl="true" overlayEnabled="true">
             <View backgroundColor="#0372fc">
                 <Label id="explorehed" class="hed">EXPLORE</Label>
                 <Label id="newworldshed" class="hed2">NEW WORLDS!</Label>

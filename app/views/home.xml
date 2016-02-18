@@ -1,5 +1,5 @@
 <Alloy>
-    <TabGroup id="hometabgroup" tabsBackgroundColor="#474747">
+    <TabGroup id="hometabgroup" tabsBackgroundColor="#474747" showPagingControl="true">
         <Tab title="FAVORITES" icon="star.png">
             <Window title="FAVORITES">
                 <ImageView id="starbg" image="/images/star-bg.png" />
